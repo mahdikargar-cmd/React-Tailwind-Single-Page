@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(130deg, #21E8C4 -20.42%, #179B93 -3.13%, #267B87 24.22%, #0F474F 72.75%);
+    font-family: Poppins, serif;
+
+}
+.custom-1{
+    border-radius: 71px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.custom-2{
+
+}
+.custom-3{
+    border-radius: 38px;
+    background: linear-gradient(107deg, #179B93 43.2%, rgba(217, 217, 217, 0.71) 61.6%);
+    color: rgba(250, 255, 35, 0.99);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.custom-5{
+    flex-shrink: 0;
+    border-radius: 15%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.custom-5:hover{
+    flex-shrink: 0;
+    opacity: 1;
+    transition: all ease 0.5s;
+    border-radius: 15%;
+}
+
+
+.navbar {
+    position: relative;
+}
+
+.nav-item {
+    position: relative;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgba(250, 255, 35, 0.99); /* رنگ خط */
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover .line {
+    width: 100%;
+}
+
+
