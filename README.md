@@ -5,4 +5,3 @@ enter npm start in terminal
 use it
 
 
-![Online-Shop](https://github.com/mahdikargar-cmd/React-Tailwind-Single-Page/assets/82155434/a61839bc-168d-41c8-9986-fe2d7fdfe997)
